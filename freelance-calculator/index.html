@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Freelance Quote Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <h1>Freelance Quote Calculator</h1>
+    
+    <!-- Input Fields -->
+    <label>Hours Needed:</label>
+    <input type="number" id="hours" placeholder="e.g., 10">
+    
+    <label>Hourly Rate ($):</label>
+    <input type="number" id="rate" placeholder="e.g., 50">
+    
+    <label>Expenses ($):</label>
+    <input type="number" id="expenses" placeholder="e.g., 100">
+    
+    <!-- Buttons -->
+    <button onclick="calculate()">Calculate Quote</button>
+    <button onclick="exportToExcel()">Export to Excel</button>
+    
+    <!-- Results -->
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js" ></script>
+</body>
+</html>
